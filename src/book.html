@@ -35,6 +35,7 @@
                 <ul class="menu menu-horizontal px-1 font-fredok-one">
                     <li><a class="hover:scale-[0.9] hover:bg-[#e98f44] hover:text-white" href="./index.html">HOME</a></li>
                     <li><a class="hover:scale-[0.9] hover:bg-[#e98f44] hover:text-white" href="./explore.html">EXPLORE</a></li>
+                    <li><a class="hover:scale-[0.9] hover:bg-[#e98f44] hover:text-white" href="./about.html">ABOUT</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -58,14 +59,72 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
             </svg>              
         </a>
+        <a href="./about.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+            </svg>         
+        </a>
     </div>
     
+    <div class="bg-gray-100 w-100 min-h-screen lg:px-10 relative z-[2] py-[150px]">
+        <div class="text-center">
+            <h1 class="font-extrabold text-6xl text-[#fc5b14] font-pacifico text-outline-black lg:underline decoration-wavy decoration-4 underline-offset-8">
+                Avilable Resorts
+            </h1>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-[100px] mx-3">
+            <div class="group card bg-base-100 shadow-xl image-full">
+                <figure>
+                    <img src="./assets/img/ADAARAN CLUB RANNALHI.jpg" load="lazy" alt="culture" class="group-hover:scale-[1.5] ease-in-out duration-300"/>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-fredok-one font-bold text-xl group-hover:text-l lg:text-4xl lg:group-hover:text-2xl ease-in-out duration-300">ADAARAN CLUB RANNALHI</h2>
+                    <p class="lg:scale-[0] lg:group-hover:scale-[1] ease-in-out duration-300 font-fredok-one">
+                        Adaaran Club Rannalhi sits exclusively at the tip of the South Malé atoll within the exotic collection of islands known as the Maldives.
+                    </p>
+                </div>
+            </div>
+            <div class="group card bg-base-100 shadow-xl image-full">
+                <figure>
+                    <img src="./assets/img/AMARI HAVODDA MALDIVES.jpg" load="lazy" alt="culture" class="group-hover:scale-[1.5] ease-in-out duration-300"/>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-fredok-one font-bold text-xl group-hover:text-l lg:text-4xl lg:group-hover:text-2xl ease-in-out duration-300">AMARI HAVODDA MALDIVES</h2>
+                    <p class="lg:scale-[0] lg:group-hover:scale-[1] ease-in-out duration-300 font-fredok-one">
+                        Designed within a theme of “natural simplicity”, Amari Havodda Maldives’ public areas and villas depict subtle elements from local island culture with carefully selected artwork.
+                    </p>
+                </div>
+            </div>
+            <div class="group card bg-base-100 shadow-xl image-full">
+                <figure>
+                    <img src="./assets/img/AMAYA KUDA RAH MALDIVES.jpg" load="lazy" alt="culture" class="group-hover:scale-[1.5] ease-in-out duration-300"/>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-fredok-one font-bold text-xl group-hover:text-l lg:text-4xl lg:group-hover:text-2xl ease-in-out duration-300">AMAYA KUDA RAH MALDIVES</h2>
+                    <p class="lg:scale-[0] lg:group-hover:scale-[1] ease-in-out duration-300 font-fredok-one">
+                        Situated in the heart of South Ari Atoll, Amaya Kuda Rah Maldives is just a 25-minute seaplane or domestic flight ride followed by a 15-minute transfer via speedboats or traditional dhoni.
+                    </p>
+                </div>
+            </div>
+            <div class="group card bg-base-100 shadow-xl image-full">
+                <figure>
+                    <img src="./assets/img/ANGAGA ISLAND RESORT & SPA.jpg" load="lazy" alt="culture" class="group-hover:scale-[1.5] ease-in-out duration-300"/>
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title font-fredok-one font-bold text-xl group-hover:text-l lg:text-4xl lg:group-hover:text-2xl ease-in-out duration-300">ANGAGA ISLAND RESORT & SPA</h2>
+                    <p class="lg:scale-[0] lg:group-hover:scale-[1] ease-in-out duration-300 font-fredok-one">
+                        Angaga Island Resort and Spa is one of the most beautiful resorts in the Maldives. Its unique natural beauty is complemented by the fine white sand of its beach and the crystal-clear lagoon.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="w-100">
         <video class="absolute w-[100vw] h-[100vh] object-cover z-[1]" muted loop autoplay src="./assets/videos/home-bg.mp4">
         </video>
         <div class="backdrop-blur-sm relative w-[100vw] z-[2]">
             <div class="flex items-center justify-center text-center h-[100vh] px-3">
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <form class="card w-96 bg-base-100 shadow-xl">
                     <div class="card-body">
                         <h1 class="font-extrabold text-2xl text-[#fc5b14] font-nerko-one text-outline-black lg:underline decoration-wavy decoration-4 underline-offset-8">
                             Book a Trip
@@ -74,22 +133,33 @@
                             <label class="label">
                                 <span class="label-text">Full Name</span>
                             </label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" name="full_name" required/>
                         </div>
                         <div class="form-control w-full max-w-xs">
                             <label class="label">
                                 <span class="label-text">Email</span>
                             </label>
-                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" name="email" required/>
+                        </div>
+                        <div class="form-control w-full max-w-xs">
+                            <label class="label">
+                                <span class="label-text">Pick a Place to Stay</span>
+                            </label>
+                            <select class="select select-bordered" name="location" required>
+                                <option>ADAARAN CLUB RANNALHI</option>
+                                <option>AMARI HAVODDA MALDIVES</option>
+                                <option>AMAYA KUDA RAH MALDIVES</option>
+                                <option>ANGAGA ISLAND RESORT & SPA</option>
+                            </select>
                         </div>
                         <div class="form-control w-full max-w-xs">
                             <label class="label">
                                 <span class="label-text">Date to check-in</span>
                             </label>
-                            <input type="date" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+                            <input type="date" placeholder="Type here" class="input input-bordered w-full max-w-xs" name="check-in_date" required/>
                         </div>
                         <div class="card-actions justify-end mt-4">
-                            <button class="btn bg-gradient-to-bl from-[#e98f44] to-[#fc5b14] border-0 font-fredok-one">
+                            <button class="btn bg-gradient-to-bl from-[#e98f44] to-[#fc5b14] border-0 font-fredok-one" type="submit">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                                 </svg>                      
@@ -97,20 +167,11 @@
                             </button>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script>
-        $('a').click(function(){
-            if(this.attr('target') != "_blank" && this.attr('href') !="" && this.attr('href') !="#"){
-                $('#pre_loader').show();
-            }
-        });
-        window.addEventListener("load", function(){
-            $('#pre_loader').hide();
-        });
-    </script>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
